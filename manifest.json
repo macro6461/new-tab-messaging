@@ -1,0 +1,17 @@
+{
+    "name": "Extension Boilerplate",
+    "description": "Starter code for chrome extension.",
+    "version": "1.0.0",
+    "manifest_version": 3,
+    "permissions": [
+        "scripting",
+        "activeTab"
+    ],
+    "background": {
+        "service_worker": "background.js"
+    },
+    "action":{
+        "default_title": "Extension Boilerplate",
+        "default_icon": "assets/icon.png"
+    }
+}
