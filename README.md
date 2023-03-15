@@ -1,6 +1,6 @@
-# Extension Boilerplate
+# New Tab Messaging In A Chrome Extension
 
-This is the source code for my medium blog post, ["How To Write a Background Script For Chrome Extension"](https://medium.com/better-programming/how-to-write-a-background-script-for-chrome-extension-ad76875eb6cd).
+This is the source code for my medium blog post, ["Send Messages Between A Content and Background Script (In A New Tab)"](https://matt-croak.medium.com/).
 
 [Upgrade your free Medium membership](https://matt-croak.medium.com/membership) and receive unlimited, ad-free, stories from thousands of writers on a wide variety of publications. This is an affiliate link and a portion of your membership helps me be rewarded for the content I create.
 

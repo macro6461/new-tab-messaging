@@ -1,17 +1,25 @@
 {
-    "name": "Extension Boilerplate",
-    "description": "Starter code for chrome extension.",
-    "version": "1.0.0",
+    "name": "New Tab Messaging",
+    "description": "Starter code for messaging between tabs.",
+    "version": "0.0.1",
     "manifest_version": 3,
     "permissions": [
         "scripting",
         "activeTab"
     ],
+    "host_permissions": ["<all_urls>"],
+    "content_scripts": [
+        {
+          "matches": ["<all_urls>"],
+          "js": ["client.js"],
+          "run_at": "document_start" 
+        }
+      ],
     "background": {
         "service_worker": "background.js"
     },
     "action":{
-        "default_title": "Extension Boilerplate",
+        "default_title": "New Tab Messaging",
         "default_icon": "assets/icon.png"
     }
 }
